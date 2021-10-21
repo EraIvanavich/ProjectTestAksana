@@ -1,1 +1,6 @@
-bin
+#bin no .log
+*.log
+
+#but do track error.log , even though you're
+ignoring .logfiles above 
+!error.log
